@@ -1,7 +1,7 @@
 from database import Database
 from os import getenv
 import click
-from repositories.urls import save, fetch_categories, fetch_ulrs
+from repositories.urls import save, fetch_categories, fetch_urls
 
 
 @click.group()
